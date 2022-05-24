@@ -1,9 +1,32 @@
+* {
+    box-sizing: border-box;
+}
 
 .apgaubiantis_box {
     display:flex;
+    justify-content: space-between;
     height: 100px;
     border: 2px solid black;
     margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
     
     
 }
+.vidiniai_box {
+    height: 50px;    
+    background-color:rgba(185, 171, 171, 0.856);
+    border: 2px solid black;
+    border-radius: 8px;
+    
+    
+}
+.mygtukas {
+    display: block;
+    height: 50px;
+    padding: 0.5em;
+    
+
+}
+
