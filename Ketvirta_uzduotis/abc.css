@@ -1,0 +1,32 @@
+.gaubiantis {
+
+    display: flex;
+    height: 450px;
+    border: 2px solid black;   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    width: 50%;
+    padding-right: 20%;
+    
+}
+.vidiniai {
+   
+    height: 40px;
+    background-color:rgb(122, 179, 226) ;
+    border: 2px solid rgb(34, 80, 133);
+    padding: 0.7em;    
+    color: white;   
+    font-size: 30px;
+    text-align: left;        
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-grow:3 ;
+}
+.nuoroda {    
+    font-size: 20px;
+    padding-left: 200px;
+   
+    
+}
